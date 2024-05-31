@@ -1,0 +1,25 @@
+.header{
+    font-size: 160%;
+    font-family: $font2;
+    display: inline-block;
+}
+header{
+    text-align: center;
+    background-color: $darkgrey;
+    text-transform: uppercase;
+
+    & ul{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    
+    & li a:hover{
+        color: $black;
+        transition: all 0.2s;
+    }
+
+    & a{
+        color: $white;
+        text-decoration: none;
+    }
+}
